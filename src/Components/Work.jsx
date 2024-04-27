@@ -4,8 +4,8 @@ import Realestate from "../assets/projects/realestate.jpg";
 
 const Work = () => {
   return (
-    <div className=" text-gray-300 w-full pt-[6rem] sm:pt-[6rem] md:pt-[14rem]  md:h-screen ">
-      <div className=" max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
+    <div className=" text-gray-300 w-full h-screen py-[59rem] sm:py-[35rem] md:py-[27rem] border ">
+      <div className=" max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pl-8">
           <p className="text-4xl border-b-4 inline font-bold text-gray-300 border-pink-600">
             Work

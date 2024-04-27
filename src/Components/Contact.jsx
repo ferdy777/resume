@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-full h-screen text-gray-300 flex justify-center p-4 items-center pt-[10rem]">
+    <div className="w-full h-screen text-gray-300 flex justify-center p-4 items-center py-[25rem]">
       <form
         method="POST"
         action="https://getform.io/f/pbqgqxkb"
@@ -17,16 +17,18 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#ccd6f6] p-2  text-black"
           type="text"
           placeholder="Name"
           name="name"
+          required
         />
         <input
-          className="bg-[#ccd6f6] p-2 my-4"
+          className="bg-[#ccd6f6] p-2 my-4  text-black"
           type="email"
           placeholder="Email"
           name="email"
+          required
         />
         <textarea
           className="bg-[#ccd6f6] p-2  text-black"

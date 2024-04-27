@@ -12,7 +12,7 @@ import GitHub from "../assets/github.png";
 
 const Skills = () => {
   return (
-    <div className=" text-gray-300 w-full pt-[4.5rem]">
+    <div className=" text-gray-300 w-full h-screen py-[35rem] sm:py-[32rem] md:py-[23rem]">
       {/* container */}
       <div className=" w-full max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full">
         <div>
